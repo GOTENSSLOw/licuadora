@@ -18,7 +18,7 @@ function controlarLicuadora(){
     }
 }
 
-function hacerBrrBrr() {
+function hacerprprp() {
     if( sonidoLicuadora.paused ){
         botonLicuadora.play();
         sonidoLicuadora.play();

@@ -5,22 +5,17 @@
 }
 
 .blender{
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
 
     min-height: 700px;
     height: 800px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(img/licuadoraApagada.png);
+    background-image: url('../img/licuadoraApagada.png');
 }
 
 .blender.active{
-    background-image: url(img/licuadoraEncendida.gif);
-    animation: blender 1s infinite;
+    background-image: url('../img/licuadoraEncendida.gif');
 }
 .blender-button{
     margin: 367px auto 0px;
